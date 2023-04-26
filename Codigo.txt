@@ -1,0 +1,2027 @@
+&lt;style&gt;
+/** custom css **/
+.btn-primary, .btn-primary:hover {background: #3FC583 }
+.payments .payment.pix,
+.payments .payment.credit-card {
+border-color: #702DFA;
+}
+.payments .payment > label {
+position: relative;
+display: flex;
+}
+.payments .payment > nlabel {
+position: relative;
+display: flex;
+}
+.payments .payment > label[for="payment-billet"]:after {
+background: #a2a2a2;
+display: block;
+line-height: inherit;
+color: #FFF;
+padding: 4px 5px;
+border-radius: 3px;
+position: absolute;
+font-weight: bold;
+font-size: 10px;
+right: 10px;
+letter-spacing: 0.03em;
+top: 26%;
+content: 'APROVAÇÃO EM 3 DIAS';
+}
+.payments .payment > label[for="payment-pix"]:after,
+.payments .payment > label[for="payment-credit-card"]:after
+{
+background: #702DFA;
+display: block;
+line-height: inherit;
+color: #FFF;
+padding: 4px 5px;
+border-radius: 3px;
+position: absolute;
+font-weight: bold;
+font-size: 10px;
+right: 10px;
+letter-spacing: 0.03em;
+top: 26%;
+content: 'APROVAÇÃO IMEDIATA';
+}
+.payments .payment > label[for="payment-credit-card"]:after {
+top: 13%;
+}
+
+.holder-cols-checkout .payments .payment.selected {
+    background: #F4F6F8;
+    border-color: #702DFA;
+}
+
+.holder-cols-checkout .payments .payment.billet {
+    background: #F4F6F8;
+    border-color: #702DFA;
+}
+
+&lt;/style&gt;
+
+.yellow {
+color: white !important;
+}
+
+
+  .checkout-step.enabled .connect, .checkout-step.enabled .holder-icon {
+    background-color: var(--main-color);
+}
+
+.holder-countdown{
+
+  padding:10px 10px;
+
+}
+
+.holder-cols-checkout .payments .payment.selected.credit-card {
+    background: #F4F6F8;
+    border-color: #702DFA;
+}
+
+
+
+&lt;style&gt;
+/** custom css **/
+
+
+
+
+
+
+
+
+&lt;style&gt;
+  /** custom css **/
+
+
+  .payments .payment.pix,
+.payments .payment.credit-card {
+}
+
+
+
+.payments .payment > label {
+	position: relative;
+	display: flex;
+}
+
+.payments .payment > label[for="payment-billet"]:after {
+    background: #702DFA;
+    display: block;
+    line-height: inherit;
+    color: #FFF;
+    padding: 4px 5px;
+    border-radius: 3px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 10px;
+    right: 10px;
+    letter-spacing: 0.03em;
+    top: 26%;
+    content: 'APROVAÇÃO EM 3 DIAS';
+}
+
+.holder-cols-checkout .payments .payment-header .discount-flag {
+    position: absolute;
+    display: none;
+}
+
+.payments .payment > label[for="payment-pix"]:after,
+.payments .payment > label[for="payment-credit-card"]:after
+{
+	background: #702DFA;
+    display: block;
+    line-height: inherit;
+    color: #FFF;
+    padding: 4px 5px;
+    border-radius: 3px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 10px;
+    right: 10px;
+    letter-spacing: 0.03em;
+    top: 26%;
+    content: 'APROVAÇÃO IMEDIATA';
+}
+
+.payments .payment > label[for="payment-credit-card"]:after {
+	top: 13%;
+}
+&lt;/style&gt;
+
+
+
+
+
+.holder-cols-checkout .payments .payment-header .discount-flag {
+    position: absolute;
+    padding: 4px 4px 3px;
+    right: 12px;
+    background: #702DFA;
+    color: #f4f6f8;
+    border-radius: 40px;
+}
+
+footer .security-label {
+    display: none;
+    margin-bottom: 25px;
+}
+.holder-cols-checkout .payments .payment.selected {
+    background: #deceff54;
+    border-color: #000000;
+}
+
+.holder-countdown {
+    padding: 9px 0 !important;
+}
+
+.logo {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.holder-cols-checkout .cart-resume .detail.total {
+    color: #702DFA;
+    padding-top: 12px;
+    padding-bottom: 6px;
+}
+
+.holder-cols-checkout .box-checkout.box-resume .cart_total {
+    color: #702DFA;
+}
+
+.form-horizontal .holder-input.valid:after {
+    position: absolute;
+    top: 14px;
+    right: 15px;
+    font-family: FontAwesome;
+    color: #00a801;
+    content: "\f00c";
+}
+
+.holder-cols-checkout .box-checkout.active .box-title .holder-number {
+    background: 509fe4;
+    border-color: #702DFA!important;
+    color: #fff;
+    border-radius: 40px;
+}
+
+.holder-cols-checkout .cart-resume .detail.total {
+    color: #702DFA;
+    padding-top: 12
+px
+;
+    padding-bottom: 6
+px
+;
+}
+#form-promocode button, #form-promocode input {
+    
+    BORDER-RADIUS: 40PX;
+}
+
+
+.form-horizontal .form-group .error, .form-horizontal .form-group.group-error .holder-selectskin:not([readonly]), .form-horizontal .form-group.group-error .input:not([readonly]), .form-horizontal .form-group.group-error .textarea:not([readonly]) {
+    border-color: #E50F38;
+    background: #FEECEF;
+    BORDER-RADIUS: 40PX;
+}
+
+.holder-cols-checkout .box-checkout input {
+    max-height: 40px;
+    BORDER-RADIUS: 40PX;
+}
+
+
+}
+
+.input-group .input-group-addon {
+    display: table-cell;
+    width: 64px;
+    font-size: 13px;
+    line-height: 14px;
+    color: #333;
+    border-collapse: separate;
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 40px;
+    font-weight: 500;
+}
+/* DESCONTO FIM DE ANO */
+
+
+
+/* Tamanho do Preço */
+.holder-cols-checkout .cart-resume .detail.total .value {
+    font-size: 22px;
+}
+
+/* 12x no Cartão */
+.holder-cols-checkout .cart-resume .detail.total .value:after {
+    content: 'em até 12x no cartão';
+    color: #4b4b4b !important;
+    display: block;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.btn-text.btn-purple /* COR DO BOTÃO DE CUPOM - ALTERAR SE PREFEIR */ {
+    color: #ffffff;
+    background: #1DB912;
+      border-radius: 40PX;
+}
+
+.btn-primary, .btn-primary:hover {
+    background: #1DB912;
+    border-radius: 40PX;
+}
+
+  /* Adicionar Icone dos Correios */
+
+.option.clearfix {
+	background-image: url(https://www.propeg.com.br/ad-viewer/Correios/Integrada/macbook.png)!important;
+    background-size: 27px!important;
+    content: ""!important;
+    background-repeat: no-repeat!important;
+    background-position-x: 145px!important;
+    background-position-y: 90%!important;
+}
+/* Adicionar Icone dos Correios */
+
+.option.clearfix {
+	background-image: url(https://www.propeg.com.br/ad-viewer/Correios/Integrada/macbook.png)!important;
+    background-size: 27px!important;
+    content: ""!important;
+    background-repeat: no-repeat!important;
+    background-position-x: 145px!important;
+    background-position-y: 90%!important;
+}
+
+.yellow /* COR CRONOMETRO - ALTERAR SE PREFEIR */ {
+    color: #ffffff!important;
+}
+body {
+    overflow-x: hidden;
+    font-size: 13px;
+    background: #F4F6F8;
+    text-shadow: 0 0 1px rgb(0 0 0 / 1%);
+    -webkit-text-stroke: 1 px transparent;
+    font-weight: 400;
+    font-family: Rubik,sans-serif;
+}
+.holder-cols-checkout .box-checkout:not(.active):not(.disabled):not(.box-resume):not(.box-payment) {
+    background: #ffffff;
+    box-shadow: 0 0 1em #00000026;
+    border-radius: 40px;
+}
+.holder-cols-checkout .box-checkout:not(.active):not(.disabled):not(.box-resume):not(.box-payment) .title {
+    color: #&lt;style&gt;
+
+
+
+
+
+
+
+
+
+&lt;style&gt;
+  /** custom css **/
+
+
+  .payments .payment.pix,
+.payments .payment.credit-card {
+}
+
+
+
+.payments .payment > label {
+	position: relative;
+	display: flex;
+}
+
+.payments .payment > label[for="payment-billet"]:after {
+    background: #a2a2a2;
+    display: block;
+    line-height: inherit;
+    color: #FFF;
+    padding: 4px 5px;
+    border-radius: 3px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 10px;
+    right: 10px;
+    letter-spacing: 0.03em;
+    top: 26%;
+    content: 'APROVAÇÃO EM 3 DIAS';
+}
+
+.holder-cols-checkout .payments .payment-header .discount-flag {
+    position: absolute;
+    display: none;
+}
+
+.payments .payment > label[for="payment-pix"]:after,
+.payments .payment > label[for="payment-credit-card"]:after
+{
+	background: #51ac08;
+    display: block;
+    line-height: inherit;
+    color: #FFF;
+    padding: 4px 5px;
+    border-radius: 3px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 10px;
+    right: 10px;
+    letter-spacing: 0.03em;
+    top: 26%;
+    content: 'APROVAÇÃO IMEDIATA';
+}
+
+.payments .payment > label[for="payment-credit-card"]:after {
+	top: 13%;
+}
+&lt;/style&gt;
+
+
+
+
+
+.holder-cols-checkout .payments .payment-header .discount-flag {
+    position: absolute;
+    padding: 4px 4px 3px;
+    right: 12px;
+    background: #f1b616;
+    color: #f4f6f8;
+    border-radius: 40px;
+}
+
+footer .security-label {
+    display: none;
+    margin-bottom: 25px;
+}
+.holder-cols-checkout .payments .payment.selected {
+    background: #deceff54;
+    border-color: #000000;
+}
+
+.holder-countdown::after {
+    content: "";
+    display: block;
+    background: linear-gradient(to right, #D70E6D 0, #F4F6F8 4%, #F4F6F8 5%);
+    height: 5px;
+    width: 100%;
+    position: relative;
+    top: 10px;
+}
+
+.holder-countdown {
+    padding: 9px 0 !important;
+}
+
+.logo {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+.holder-cols-checkout .cart-resume .detail.total {
+    color: #1DB912;
+    padding-top: 12px;
+    padding-bottom: 6px;
+}
+
+.holder-cols-checkout .box-checkout.box-resume .cart_total {
+    color: #f1b616;
+}
+
+.form-horizontal .holder-input.valid:after {
+    position: absolute;
+    top: 14px;
+    right: 15px;
+    font-family: FontAwesome;
+    color: #00a801;
+    content: "\f00c";
+}
+
+.holder-cols-checkout .box-checkout.active .box-title .holder-number {
+    background: 509fe4;
+    border-color: #f1b616!important;
+    color: #fff;
+    border-radius: 40px;
+}
+
+.holder-cols-checkout .cart-resume .detail.total {
+    color: #1DB912;
+    padding-top: 12
+px
+;
+    padding-bottom: 6
+px
+;
+}
+#form-promocode button, #form-promocode input {
+    
+    BORDER-RADIUS: 10PX;
+}
+
+
+.form-horizontal .form-group .error, .form-horizontal .form-group.group-error .holder-selectskin:not([readonly]), .form-horizontal .form-group.group-error .input:not([readonly]), .form-horizontal .form-group.group-error .textarea:not([readonly]) {
+    border-color: #E50F38;
+    background: #FEECEF;
+    BORDER-RADIUS: 40PX;
+}
+
+.holder-cols-checkout .box-checkout input {
+    max-height: 40px;
+    BORDER-RADIUS: 40PX;
+}
+
+
+}
+
+.input-group .input-group-addon {
+    display: table-cell;
+    width: 64px;
+    font-size: 13px;
+    line-height: 14px;
+    color: #333;
+    border-collapse: separate;
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 40px;
+    font-weight: 500;
+}
+/* DESCONTO FIM DE ANO */
+
+.holder-cols-checkout .holder-container-resume .item-holder-quantity-price::after {
+  content: "Ultimas Unidades";
+    font-size: 11px;
+    padding: 3px 5px;
+    color: #FFFFFF;
+    font-weight: 600;
+    background: #000000;
+    border-radius: 5px;
+    display: inline-block;
+    align-self: end;
+}
+
+/* Tamanho do Preço */
+.holder-cols-checkout .cart-resume .detail.total .value {
+    font-size: 22px;
+}
+/* 12x no Cartão */
+.holder-cols-checkout .cart-resume .detail.total .value:after {
+    content: 'em até 12x no cartão';
+    color: #4b4b4b !important;
+    display: block;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.btn-text.btn-purple /* COR DO BOTÃO DE CUPOM - ALTERAR SE PREFEIR */ {
+    color: #ffffff;
+    background: #1DB912;
+      border-radius: 40PX;
+}
+
+.btn-primary, .btn-primary:hover {
+    background: #1DB912;
+    border-radius: 40PX;
+}
+
+  /* Adicionar Icone dos Correios */
+
+.option.clearfix {
+	background-image: url(https://www.propeg.com.br/ad-viewer/Correios/Integrada/macbook.png)!important;
+    background-size: 27px!important;
+    content: ""!important;
+    background-repeat: no-repeat!important;
+    background-position-x: 145px!important;
+    background-position-y: 90%!important;
+}
+/* Adicionar Icone dos Correios */
+
+.option.clearfix {
+	background-image: url(https://www.propeg.com.br/ad-viewer/Correios/Integrada/macbook.png)!important;
+    background-size: 27px!important;
+    content: ""!important;
+    background-repeat: no-repeat!important;
+    background-position-x: 145px!important;
+    background-position-y: 90%!important;
+}
+
+.yellow /* COR CRONOMETRO - ALTERAR SE PREFEIR */ {
+    color: #ffffff!important;
+}
+body {
+    overflow-x: hidden;
+    font-size: 13px;
+    background: #F4F6F8;
+    text-shadow: 0 0 1px rgb(0 0 0 / 1%);
+    -webkit-text-stroke: 1 px transparent;
+    font-weight: 400;
+    font-family: Rubik,sans-serif;
+}
+.holder-cols-checkout .box-checkout:not(.active):not(.disabled):not(.box-resume):not(.box-payment) {
+    background: #ffffff;
+    box-shadow: 0 0 1em #00000026;
+    border-radius: 40px;
+}
+.holder-cols-checkout .box-checkout:not(.active):not(.disabled):not(.box-resume):not(.box-payment) .title {
+    color: #1DB912!important;
+}
+
+.checkout-step.enabled .connect, .checkout-step.enabled .holder-icon {
+    background: #1DB912;
+}
+
+a {
+    text-decoration: none;
+    color: #4d4d4d;
+}
+.holder-cols-checkout .box-checkout {
+    width: 100%;
+    position: relative;
+    padding: 27px 21px 23px;
+    margin: 0 0 20px;
+    background: #FFF;
+    border: 2px solid transparent;    
+    border-radius: 40px;
+    box-sizing: border-box;
+    transition: all .2s;
+}
+.holder-cols-checkout .box-checkout.active {
+    cursor: default;
+    border-color: #f1b616;
+    border-radius: 40px;
+}
+
+
+.c-green-2 {
+    color: #00a801!important;
+}
+
+
+
+
+
+.col-checkout:not(.col-3) .box-checkout.active:not(.upsell) {
+    width: auto;
+    margin: 0 10px 18px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border: 0;
+    border-top: solid 4pX #f5f5f5;
+    box-shadow: none;
+    border-radius: 40PX;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 32%);
+}
+
+
+.holder-cols-checkout .box-checkout.disabled {
+    cursor: default;
+    pointer-events: none;
+    -moz-opacity: .5;
+    -khtml-opacity: .5;
+    -webkit-opacity: .5;
+    opacity: .5;
+    border-top: solid 4 px #f1b616;
+    box-shadow: none;
+    border-radius: 40PX;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+    filter: alpha(opacity=50);
+}
+
+.holder-cols-checkout .box-checkout.box-resume {
+    width: auto;
+    margin: 0 10px 20px;    
+    padding-left: 14px;
+    padding-right: 14px;
+    border: 0;
+    border-top: solid 4px f5f5f5;
+    box-shadow: none;
+    border-radius: 40PX;
+    box-shadow:0 1px 4px 0 rgb(0 0 0 / 32%);
+}
+
+.holder-recomm {
+    padding: 20px;
+    background: #fff;
+    border: 2px dashed #59b2ea;
+    box-shadow: 0 0 20px 5px rgb(114 91 194 / 12%);
+    border-radius: 40px;
+}
+
+
+.holder-cols-checkout .box-checkout.box-resume .cart_total {
+    color: #5abd35;
+}
+
+
+.input-group.input-group-prepend .input-group-addon {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-right: 0;
+    border-radius: 40px;
+}
+.green {
+    color: #1DB912 !important;
+}
+
+.icon-mercadopago {
+    background-image: url(https://http2.mlstatic.com/frontend-assets/ui-navigation/5.14.4/mercadopago/logo__large.png);
+}
+
+.holder-cols-checkout .payments .payment.selected {
+    background: #f5f5f5;
+    border-color: #000000;
+}
+
+/* Rodapé - ALTERAR INFORMAÇÕES */
+
+span.f11.black-50::after {
+    content: 'Atendimento via WhatsApp: (43)9-9870-9698 \A Seg a Sab - 09:30 às 17:30 \A\A CNPJ: 48.215.046/0001-54\A © Todos os direitos reservados.';
+    display: block;
+    margin-top: 15px;
+    white-space: pre-wrap;
+    line-height: 1.8;
+}
+
+.medium {
+    font-weight: 500;
+
+}
+
+.c-text-success-2 {
+    color: #36b376!important;
+}
+
+.holder-cols-checkout .box-checkout:not(.active):not(.disabled):not(.box-resume):not(.box-payment) .holder-number {
+    background-color: #1DB912;
+}
+
+.black-50 {
+    color: grey!important;;
+
+  }
+
+
+  @media (max-width: 700px)
+footer .security-label {
+    display: none;
+    margin-bottom: 25px;
+}
+
+header {
+    background: #FF8A00;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 32%);
+}
+
+
+
+
+  :root {
+  
+    --background-color:white;
+    --main-color:#FF8A00;
+    --sec-color:#ccc;
+    --three-color:#ffffff;
+
+}
+
+.checkout-step.enabled .holder-icon {
+    
+    background: url(https://rawartsites.neocities.org/img/Yampi/dados.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 66%;
+    background-color: var(--main-color);
+    border-radius: 0 0 4px 4px;
+    border: 2px solid var(--main-color);
+    padding: 7px;
+    margin: 14px 0 11px 0;
+    font-size: 0;
+    
+}
+  
+    .checkout-step:nth-child(2).enabled .holder-icon {
+    
+    background: url(https://rawartsites.neocities.org/img/Yampi/truck.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 10px 18px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border: 0;
+    border-top: solid 4pX #f5f5f5;
+    box-shadow: none;
+    border-radius: 40PX;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 32%);
+}
+
+
+.holder-cols-checkout .box-checkout.disabled {
+    cursor: default;
+    pointer-events: none;
+    -moz-opacity: .5;
+    -khtml-opacity: .5;
+    -webkit-opacity: .5;
+    opacity: .5;
+    border-top: solid 4 px #f1b616;
+    box-shadow: none;
+    border-radius: 40PX;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+    filter: alpha(opacity=50);
+}
+
+.holder-cols-checkout .box-checkout.box-resume {
+    width: auto;
+    margin: 0 10px 20px;    
+    padding-left: 14px;
+    padding-right: 14px;
+    border: 0;
+    border-top: solid 4px f5f5f5;
+    box-shadow: none;
+    border-radius: 40PX;
+    box-shadow:0 1px 4px 0 rgb(0 0 0 / 32%);
+}
+
+.holder-recomm {
+    padding: 20px;
+    background: #fff;
+    border: 2px dashed #59b2ea;
+    box-shadow: 0 0 20px 5px rgb(114 91 194 / 12%);
+    border-radius: 40px;
+}
+
+
+.holder-cols-checkout .box-checkout.box-resume .cart_total {
+    color: #5abd35;
+}
+
+
+.input-group.input-group-prepend .input-group-addon {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-right: 0;
+    border-radius: 40px;
+}
+.green {
+    color: #1DB912 !important;
+}
+
+.icon-mercadopago {
+    background-image: url(https://http2.mlstatic.com/frontend-assets/ui-navigation/5.14.4/mercadopago/logo__large.png);
+}
+
+.holder-cols-checkout .payments .payment.selected {
+    background: #f5f5f5;
+    border-color: #000000;
+}
+
+/* Rodapé - ALTERAR INFORMAÇÕES */
+
+span.f11.black-50::after {
+    content: 'Atendimento via WhatsApp: (43)9-9870-9698 \A Seg a Sab - 09:30 às 17:30 \A\A CNPJ: 48.215.046/0001-54 \A © Todos os direitos reservados.';
+    display: block;
+    margin-top: 15px;
+    white-space: pre-wrap;
+    line-height: 1.8;
+}
+
+.medium {
+    font-weight: 500;
+
+}
+
+.c-text-success-2 {
+    color: #36b376!important;
+}
+
+.holder-cols-checkout .box-checkout:not(.active):not(.disabled):not(.box-resume):not(.box-payment) .holder-number {
+    background-color: #1DB912;
+}
+
+.black-50 {
+    color: grey!important;;
+
+}
+
+  @media (max-width: 700px)
+footer .security-label {
+    display: none;
+    margin-bottom: 25px;
+}
+
+header {
+    background: #FF8A00;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 32%);
+}
+
+
+
+
+  :root {
+  
+    --background-color:white;
+    --main-color:#FF8A00;
+    --sec-color:#ccc;
+    --three-color:#ffffff;
+
+}
+
+.checkout-step.enabled .holder-icon {
+    
+    background: url(https://rawartsites.neocities.org/img/Yampi/dados.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 66%;
+    background-color: var(--main-color);
+    border-radius: 0 0 4px 4px;
+    border: 2px solid var(--main-color);
+    padding: 7px;
+    margin: 14px 0 11px 0;
+    font-size: 0;
+    
+}
+  
+    .checkout-step:nth-child(2).enabled .holder-icon {
+    
+    background: url(https://rawartsites.neocities.org/img/Yampi/truck.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+    background-color: var(--main-color);
+    border-radius: 0 0 4px 4px;
+    border: 2px solid var(--main-color);
+    padding: 7px;
+    margin: 14px 0 11px 0;
+    font-size: 0;
+    
+}
+  
+      .checkout-step:nth-child(3).enabled .holder-icon {
+    
+    background: url(https://rawartsites.neocities.org/img/Yampi/card.svg);
+    background-repeat: no-repeat;
+    background-position: center 8px;
+    background-size: 80%;
+    background-color: var(--main-color);
+    border-radius: 0 0 4px 4px;
+    border: 2px solid var(--main-color);
+    padding: 7px;
+    margin: 14px 0 11px 0;
+    font-size: 0;
+    
+}
+  
+  .checkout-step.disabled:nth-child(2) .holder-icon {
+    background: url(https://rawartsites.neocities.org/img/Yampi/truck.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+    background-color: #bdbdbd;
+    border-radius: 0 0 4px 4px;
+    border: 2px solid #bdbdbd;
+    padding: 7px;
+    margin: 14px 0 11px 0;
+    font-size: 0;
+}
+  
+    .checkout-step.disabled:nth-child(3) .holder-icon {
+    background: url(https://rawartsites.neocities.org/img/Yampi/card.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    background-color: #bdbdbd;
+    border-radius: 0 0 4px 4px;
+    border: 2px solid #bdbdbd;
+    padding: 7px;
+    margin: 14px 0 11px 0;
+    font-size: 0;
+}
+  
+    .checkout-step:nth-child(3) .holder-icon {
+    background: url(https://rawartsites.neocities.org/img/Yampi/card.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    background-color: #bdbdbd;
+    border-radius: 0 0 4px 4px;
+    border: 2px solid #bdbdbd;
+    padding: 7px;
+    margin: 14px 0 11px 0;
+    font-size: 0;
+}
+
+  .checkout-step.enabled .connect, .checkout-step.enabled .holder-icon {
+    background-color: var(--main-color);
+}
+ 
+
+
+ 
+
+
+
+.container-testimonials .testimonials {
+    padding: 20px 21px;
+    background: #FFF;
+    border-radius: 40PX;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 32%);
+    width: auto;
+    margin: 0 10px 20px;
+    padding-left: 14px;
+    padding-right: 14px;
+    box-sizing: border-box;
+}
+
+.container-testimonials {
+    max-width: 680px!important;
+    box-shadow: none;
+}
+ 
+
+!important;
+}
+
+.checkout-step.enabled .connect, .checkout-step.enabled .holder-icon {
+    background: #1DB912;
+}
+
+a {
+    text-decoration: none;
+    color: #4d4d4d;
+}
+.holder-cols-checkout .box-checkout {
+    width: 100%;
+    position: relative;
+    padding: 27px 21px 23px;
+    margin: 0 0 20px;
+    background: #FFF;
+    border: 2px solid transparent;    
+    border-radius: 40px;
+    box-sizing: border-box;
+    transition: all .2s;
+}
+.holder-cols-checkout .box-checkout.active {
+    cursor: default;
+    border-color: #f1b616;
+    border-radius: 40px;
+}
+
+
+.c-green-2 {
+    color: #00a801!important;
+}
+
+
+
+
+
+.col-checkout:not(.col-3) .box-checkout.active:not(.upsell) {
+    width: auto;
+    margin: 0 10px 18px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border: 0;
+    border-top: solid 4pX #f5f5f5;
+    box-shadow: none;
+    border-radius: 40PX;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 32%);
+}
+
+
+.holder-cols-checkout .box-checkout.disabled {
+    cursor: default;
+    pointer-events: none;
+    -moz-opacity: .5;
+    -khtml-opacity: .5;
+    -webkit-opacity: .5;
+    opacity: .5;
+    border-top: solid 4 px #f1b616;
+    box-shadow: none;
+    border-radius: 40PX;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+    filter: alpha(opacity=50);
+}
+
+.holder-cols-checkout .box-checkout.box-resume {
+    width: auto;
+    margin: 0 10px 20px;    
+    padding-left: 14px;
+    padding-right: 14px;
+    border: 0;
+    border-top: solid 4px f5f5f5;
+    box-shadow: none;
+    border-radius: 40PX;
+    box-shadow:0 1px 4px 0 rgb(0 0 0 / 32%);
+}
+
+.holder-recomm {
+    padding: 20px;
+    background: #fff;
+    border: 2px dashed #1DB912;
+    box-shadow: 0 0 20px 5px rgb(114 91 194 / 12%);
+    border-radius: 40px;
+}
+
+
+.holder-cols-checkout .box-checkout.box-resume .cart_total {
+    color: #5abd35;
+}
+
+
+.input-group.input-group-prepend .input-group-addon {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-right: 0;
+    border-radius: 40px;
+}
+.green {
+    color: #1DB912 !important;
+}
+
+.icon-mercadopago {
+    background-image: url(https://http2.mlstatic.com/frontend-assets/ui-navigation/5.14.4/mercadopago/logo__large.png);
+}
+
+.holder-cols-checkout .payments .payment.selected {
+    background: #f5f5f5;
+    border-color: #000000;
+}
+
+/* Rodapé - ALTERAR INFORMAÇÕES */
+
+span.f11.black-50::after {
+    content: 'Atendimento via WhatsApp:(43)9-9870-9698 \A Seg a Sab - 09:00 às 17:30 \A\A CNPJ: 48.215.046/0001-54 \A © Todos os direitos reservados.';
+    display: block;
+    margin-top: 15px;
+    white-space: pre-wrap;
+    line-height: 1.8;
+}
+
+.medium {
+    font-weight: 500;
+
+}
+
+.c-text-success-2 {
+    color: #36b376!important;
+}
+
+.holder-cols-checkout .box-checkout:not(.active):not(.disabled):not(.box-resume):not(.box-payment) .holder-number {
+    background-color: #1DB912;
+}
+
+.black-50 {
+    color: grey!important;;
+
+  }
+
+
+  @media (max-width: 700px)
+footer .security-label {
+    display: none;
+    margin-bottom: 25px;
+}
+
+header {
+    background: #FF8A00;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 32%);
+}
+
+
+
+
+  :root {
+  
+    --background-color:white;
+    --main-color:#FF8A00;
+    --sec-color:#ccc;
+    --three-color:#ffffff;
+
+}
+
+.checkout-step.enabled .holder-icon {
+    
+    background: url(https://rawartsites.neocities.org/img/Yampi/dados.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 66%;
+    background-color: var(--main-color);
+    border-radius: 0 0 4px 4px;
+    border: 2px solid var(--main-color);
+    padding: 7px;
+    margin: 14px 0 11px 0;
+    font-size: 0;
+    
+}
+  
+    .checkout-step:nth-child(2).enabled .holder-icon {
+    
+    background: url(https://rawartsites.neocities.org/img/Yampi/truck.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+    background-color: var(--main-color);
+    border-radius: 0 0 4px 4px;
+    border: 2px solid var(--main-color);
+    padding: 7px;
+    margin: 14px 0 11px 0;
+    font-size: 0;
+    
+}
+  
+      .checkout-step:nth-child(3).enabled .holder-icon {
+    
+    background: url(https://rawartsites.neocities.org/img/Yampi/card.svg);
+    background-repeat: no-repeat;
+    background-position: center 8px;
+    background-size: 80%;
+    background-color: var(--main-color);
+    border-radius: 0 0 4px 4px;
+    border: 2px solid var(--main-color);
+    padding: 7px;
+    margin: 14px 0 11px 0;
+    font-size: 0;
+    
+}
+  
+  .checkout-step.disabled:nth-child(2) .holder-icon {
+    background: url(https://rawartsites.neocities.org/img/Yampi/truck.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+    background-color: #bdbdbd;
+    border-radius: 0 0 4px 4px;
+    border: 2px solid #bdbdbd;
+    padding: 7px;
+    margin: 14px 0 11px 0;
+    font-size: 0;
+}
+  
+    .checkout-step.disabled:nth-child(3) .holder-icon {
+    background: url(https://rawartsites.neocities.org/img/Yampi/card.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    background-color: #bdbdbd;
+    border-radius: 0 0 4px 4px;
+    border: 2px solid #bdbdbd;
+    padding: 7px;
+    margin: 14px 0 11px 0;
+    font-size: 0;
+}
+  
+    .checkout-step:nth-child(3) .holder-icon {
+    background: url(https://rawartsites.neocities.org/img/Yampi/card.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    background-color: #bdbdbd;
+    border-radius: 0 0 4px 4px;
+    border: 2px solid #bdbdbd;
+    padding: 7px;
+    margin: 14px 0 11px 0;
+    font-size: 0;
+}
+
+  .checkout-step.enabled .connect, .checkout-step.enabled .holder-icon {
+    background-color: var(--main-color);
+}
+ 
+
+
+ 
+
+
+
+.container-testimonials .testimonials {
+    padding: 20px 21px;
+    background: #FFF;
+    border-radius: 40PX;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 32%);
+    width: auto;
+    margin: 0 10px 20px;
+    padding-left: 14px;
+    padding-right: 14px;
+    box-sizing: border-box;
+}
+
+.container-testimonials {
+    max-width: 680px!important;
+    box-shadow: none;
+}
+
+    width: 100%;
+    position: relative;
+    top: 10px;
+}
+
+.holder-countdown {
+    padding: 9px 0 !important;
+}
+
+.logo {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.holder-cols-checkout .cart-resume .detail.total {
+    color: #1DB912;
+    padding-top: 12px;
+    padding-bottom: 6px;
+}
+
+.holder-cols-checkout .box-checkout.box-resume .cart_total {
+    color: #f1b616;
+}
+
+.form-horizontal .holder-input.valid:after {
+    position: absolute;
+    top: 14px;
+    right: 15px;
+    font-family: FontAwesome;
+    color: #00a801;
+    content: "\f00c";
+}
+
+.holder-cols-checkout .box-checkout.active .box-title .holder-number {
+    background: 509fe4;
+    border-color: #f1b616!important;
+    color: #fff;
+    border-radius: 40px;
+}
+
+.holder-cols-checkout .cart-resume .detail.total {
+    color: #1DB912;
+    padding-top: 12
+px
+;
+    padding-bottom: 6
+px
+;
+}
+#form-promocode button, #form-promocode input {
+    
+    BORDER-RADIUS: 10PX;
+}
+
+
+.form-horizontal .form-group .error, .form-horizontal .form-group.group-error .holder-selectskin:not([readonly]), .form-horizontal .form-group.group-error .input:not([readonly]), .form-horizontal .form-group.group-error .textarea:not([readonly]) {
+    border-color: #E50F38;
+    background: #FEECEF;
+    BORDER-RADIUS: 40PX;
+}
+
+.holder-cols-checkout .box-checkout input {
+    max-height: 40px;
+    BORDER-RADIUS: 40PX;
+}
+
+
+}
+
+.input-group .input-group-addon {
+    display: table-cell;
+    width: 64px;
+    font-size: 13px;
+    line-height: 14px;
+    color: #333;
+    border-collapse: separate;
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 40px;
+    font-weight: 500;
+}
+/* DESCONTO FIM DE ANO */
+
+.holder-cols-checkout .holder-container-resume .item-holder-quantity-price::after {
+    content: "Ultimas Unidades";
+    font-size: 11px;
+    padding: 3px 5px;
+    color: #FFFFFF;
+    font-weight: 600;
+    background: #702DFA;
+    border-radius: 5px;
+    display: inline-block;
+    align-self: end;
+}
+
+/* Tamanho do Preço */
+.holder-cols-checkout .cart-resume .detail.total .value {
+    font-size: 22px;
+}
+/* 12x no Cartão */
+.holder-cols-checkout .cart-resume .detail.total .value:after {
+    content: 'em até 12x no cartão';
+    color: #000000 !important;
+    display: block;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.btn-text.btn-purple /* COR DO BOTÃO DE CUPOM - ALTERAR SE PREFEIR */ {
+    color: #ffffff;
+    background: #1DB912;
+      border-radius: 40PX;
+}
+
+.btn-primary, .btn-primary:hover {
+    background: #1DB912;
+    border-radius: 40PX;
+}
+
+  /* Adicionar Icone dos Correios */
+
+.option.clearfix {
+	background-image: url(https://www.propeg.com.br/ad-viewer/Correios/Integrada/macbook.png)!important;
+    background-size: 27px!important;
+    content: ""!important;
+    background-repeat: no-repeat!important;
+    background-position-x: 145px!important;
+    background-position-y: 90%!important;
+}
+/* Adicionar Icone dos Correios */
+
+.option.clearfix {
+	background-image: url(https://www.propeg.com.br/ad-viewer/Correios/Integrada/macbook.png)!important;
+    background-size: 27px!important;
+    content: ""!important;
+    background-repeat: no-repeat!important;
+    background-position-x: 145px!important;
+    background-position-y: 90%!important;
+}
+
+.yellow /* COR CRONOMETRO - ALTERAR SE PREFEIR */ {
+    color: #ffffff!important;
+}
+body {
+    overflow-x: hidden;
+    font-size: 13px;
+    background: #F4F6F8;
+    text-shadow: 0 0 1px rgb(0 0 0 / 1%);
+    -webkit-text-stroke: 1 px transparent;
+    font-weight: 400;
+    font-family: Rubik,sans-serif;
+}
+.holder-cols-checkout .box-checkout:not(.active):not(.disabled):not(.box-resume):not(.box-payment) {
+    background: #ffffff;
+    box-shadow: 0 0 1em #00000026;
+    border-radius: 40px;
+}
+.holder-cols-checkout .box-checkout:not(.active):not(.disabled):not(.box-resume):not(.box-payment) .title {
+    color: #1DB912!important;
+}
+
+.checkout-step.enabled .connect, .checkout-step.enabled .holder-icon {
+    background: #1DB912;
+}
+
+a {
+    text-decoration: none;
+    color: #4d4d4d;
+}
+.holder-cols-checkout .box-checkout {
+    width: 100%;
+    position: relative;
+    padding: 27px 21px 23px;
+    margin: 0 0 20px;
+    background: #FFF;
+    border: 2px solid transparent;    
+    border-radius: 40px;
+    box-sizing: border-box;
+    transition: all .2s;
+}
+.holder-cols-checkout .box-checkout.active {
+    cursor: default;
+    border-color: #f1b616;
+    border-radius: 40px;
+}
+
+
+.c-green-2 {
+    color: #702DFA!important;
+}
+
+
+
+
+
+.col-checkout:not(.col-3) .box-checkout.active:not(.upsell) {
+    width: auto;
+    margin: 0 10px 18px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border: 0;
+    border-top: solid 4pX #f5f5f5;
+    box-shadow: none;
+    border-radius: 40PX;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 32%);
+}
+
+
+.holder-cols-checkout .box-checkout.disabled {
+    cursor: default;
+    pointer-events: none;
+    -moz-opacity: .5;
+    -khtml-opacity: .5;
+    -webkit-opacity: .5;
+    opacity: .5;
+    border-top: solid 4 px #f1b616;
+    box-shadow: none;
+    border-radius: 40PX;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+    filter: alpha(opacity=50);
+}
+
+.holder-cols-checkout .box-checkout.box-resume {
+    width: auto;
+    margin: 0 10px 20px;    
+    padding-left: 14px;
+    padding-right: 14px;
+    border: 0;
+    border-top: solid 4px #f5f5f5;
+    box-shadow: none;
+    border-radius: 40PX;
+    box-shadow:0 1px 4px 0 rgb(0 0 0 / 32%);
+}
+
+.holder-recomm {
+    padding: 20px;
+    background: #fff;
+    border: 2px dashed #702DFA;
+    box-shadow: 0 0 20px 5px rgb(114 91 194 / 12%);
+    border-radius: 40px;
+}
+
+
+.holder-cols-checkout .box-checkout.box-resume .cart_total {
+    color: #702DFA;
+}
+
+
+.input-group.input-group-prepend .input-group-addon {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-right: 0;
+    border-radius: 40px;
+}
+.green {
+    color: #1DB912 !important;
+}
+
+.icon-mercadopago {
+    background-image: url(https://http2.mlstatic.com/frontend-assets/ui-navigation/5.14.4/mercadopago/logo__large.png);
+}
+
+.holder-cols-checkout .payments .payment.selected {
+    background: #f5f5f5;
+    border-color: #000000;
+}
+
+/* Rodapé - ALTERAR INFORMAÇÕES */
+
+span.f11.black-50::after {
+    content: 'Atendimento via WhatsApp:(43)9-9870-9698 \A Seg a Sab - 09:00 às 17:30 \A\A CNPJ: 48.215.046/0001-54 \A © Todos os direitos reservados.';
+    display: block;
+    margin-top: 15px;
+    white-space: pre-wrap;
+    line-height: 1.8;
+}
+
+.medium {
+    font-weight: 500;
+
+}
+
+.c-text-success-2 {
+    color: #36b376!important;
+}
+
+.holder-cols-checkout .box-checkout:not(.active):not(.disabled):not(.box-resume):not(.box-payment) .holder-number {
+    background-color: #702DFA;
+}
+
+.black-50 {
+    color: grey!important;;
+
+}
+
+  @media (max-width: 700px)
+footer .security-label {
+    display: none;
+    margin-bottom: 25px;
+}
+
+header {
+    background: #ffffff;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 32%);
+}
+
+
+
+
+  :root {
+  
+    --background-color:white;
+    --main-color:#00D86B;
+    --sec-color:#ccc;
+    --three-color:#ffffff;
+
+}
+
+.checkout-step.enabled .holder-icon {
+    
+    background: url(https://rawartsites.neocities.org/img/Yampi/dados.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 66%;
+    background-color: var(--main-color);
+    border-radius: 0 0 4px 4px;
+    border: 2px solid var(--main-color);
+    padding: 7px;
+    margin: 14px 0 11px 0;
+    font-size: 0;
+    
+}
+  
+    .checkout-step:nth-child(2).enabled .holder-icon {
+    
+    background: url(https://rawartsites.neocities.org/img/Yampi/truck.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+    background-color: var(--main-color);
+    border-radius: 0 0 4px 4px;
+    border: 2px solid var(--main-color);
+    padding: 7px;
+    margin: 14px 0 11px 0;
+    font-size: 0;
+    
+}
+  
+      .checkout-step:nth-child(3).enabled .holder-icon {
+    
+    background: url(https://rawartsites.neocities.org/img/Yampi/card.svg);
+    background-repeat: no-repeat;
+    background-position: center 8px;
+    background-size: 80%;
+    background-color: var(--main-color);
+    border-radius: 0 0 4px 4px;
+    border: 2px solid var(--main-color);
+    padding: 7px;
+    margin: 14px 0 11px 0;
+    font-size: 0;
+    
+}
+  
+  .checkout-step.disabled:nth-child(2) .holder-icon {
+    background: url(https://rawartsites.neocities.org/img/Yampi/truck.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+    background-color: #bdbdbd;
+    border-radius: 0 0 4px 4px;
+    border: 2px solid #bdbdbd;
+    padding: 7px;
+    margin: 14px 0 11px 0;
+    font-size: 0;
+}
+  
+    .checkout-step.disabled:nth-child(3) .holder-icon {
+    background: url(https://rawartsites.neocities.org/img/Yampi/card.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    background-color: #bdbdbd;
+    border-radius: 0 0 4px 4px;
+    border: 2px solid #bdbdbd;
+    padding: 7px;
+    margin: 14px 0 11px 0;
+    font-size: 0;
+}
+  
+    .checkout-step:nth-child(3) .holder-icon {
+    background: url(https://rawartsites.neocities.org/img/Yampi/card.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    background-color: #bdbdbd;
+    border-radius: 0 0 4px 4px;
+    border: 2px solid #bdbdbd;
+    padding: 7px;
+    margin: 14px 0 11px 0;
+    font-size: 0;
+}
+
+  .checkout-step.enabled .connect, .checkout-step.enabled .holder-icon {
+    background-color: var(--main-color);
+}
+ 
+
+
+ 
+
+
+
+.container-testimonials .testimonials {
+    padding: 20px 21px;
+    background: #FFF;
+    border-radius: 40PX;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 32%);
+    width: auto;
+    margin: 0 10px 20px;
+    padding-left: 14px;
+    padding-right: 14px;
+    box-sizing: border-box;
+}
+
+.container-testimonials {
+    max-width: 680px!important;
+    box-shadow: none;
+}
+ 
+
+!important;
+}
+
+.checkout-step.enabled .connect, .checkout-step.enabled .holder-icon {
+    background: #1DB912;
+}
+
+a {
+    text-decoration: none;
+    color: #00a801;
+}
+.holder-cols-checkout .box-checkout {
+    width: 100%;
+    position: relative;
+    padding: 27px 21px 23px;
+    margin: 0 0 20px;
+    background: #FFF;
+    border: 2px solid transparent;    
+    border-radius: 40px;
+    box-sizing: border-box;
+    transition: all .2s;
+}
+.holder-cols-checkout .box-checkout.active {
+    cursor: default;
+    border-color: #702DFA;
+    border-radius: 40px;
+}
+
+
+.c-green-2 {
+    color: #702DFA!important;
+}
+
+
+
+
+
+.col-checkout:not(.col-3) .box-checkout.active:not(.upsell) {
+    width: auto;
+    margin: 0 10px 18px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border: 0;
+    border-top: solid 4pX #f5f5f5;
+    box-shadow: none;
+    border-radius: 40PX;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 32%);
+}
+
+
+.holder-cols-checkout .box-checkout.disabled {
+    cursor: default;
+    pointer-events: none;
+    -moz-opacity: .5;
+    -khtml-opacity: .5;
+    -webkit-opacity: .5;
+    opacity: .5;
+    border-top: solid 4 px #702DFA;
+    box-shadow: none;
+    border-radius: 40PX;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+    filter: alpha(opacity=50);
+}
+
+.holder-cols-checkout .box-checkout.box-resume {
+    width: auto;
+    margin: 0 10px 20px;    
+    padding-left: 14px;
+    padding-right: 14px;
+    border: 0;
+    border-top: solid 4px 2369D3;
+    box-shadow: none;
+    border-radius: 40PX;
+    box-shadow:0 1px 4px 0 rgb(0 0 0 / 32%);
+}
+
+.holder-recomm {
+    padding: 20px;
+    background: #fff;
+    border: 2px dashed #1DB912;
+    box-shadow: 0 0 20px 5px rgb(114 91 194 / 12%);
+    border-radius: 40px;
+}
+
+
+.holder-cols-checkout .box-checkout.box-resume .cart_total {
+    color: #5abd35;
+}
+
+
+.input-group.input-group-prepend .input-group-addon {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-right: 0;
+    border-radius: 40px;
+}
+.green {
+    color: #702DFA !important;
+}
+
+.icon-mercadopago {
+    background-image: url(https://http2.mlstatic.com/frontend-assets/ui-navigation/5.14.4/mercadopago/logo__large.png);
+}
+
+.holder-cols-checkout .payments .payment.selected {
+    background: #f5f5f5;
+    border-color: #000000;
+}
+
+/* Rodapé - ALTERAR INFORMAÇÕES */
+
+span.f11.black-50::after {
+    content: 'Atendimento via WhatsApp: (43)9-9870-9698 \A Seg a Sab - 09:00 às 17:30 \A\A CNPJ: 48.215.046/0001-54 \A © Todos os direitos reservados.';
+    display: block;
+    margin-top: 15px;
+    white-space: pre-wrap;
+    line-height: 1.8;
+}
+
+.medium {
+    font-weight: 500;
+
+}
+
+.c-text-success-2 {
+    color: #36b376!important;
+}
+
+.holder-cols-checkout .box-checkout:not(.active):not(.disabled):not(.box-resume):not(.box-payment) .holder-number {
+    background-color: #702DFA;
+}
+
+.black-50 {
+    color: grey!important;;
+
+}
+
+  @media (max-width: 700px)
+footer .security-label {
+    display: none;
+    margin-bottom: 25px;
+}
+
+header {
+    background: #FFFFFF;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 32%);
+}
+
+
+
+
+  :root {
+  
+    --background-color:white;
+    --main-color:#702DFA;
+    --sec-color:#ccc;
+    --three-color:#ffffff;
+
+}
+
+.checkout-step.enabled .holder-icon {
+    
+    background: url(https://rawartsites.neocities.org/img/Yampi/dados.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 66%;
+    background-color: var(--main-color);
+    border-radius: 0 0 4px 4px;
+    border: 2px solid var(--main-color);
+    padding: 7px;
+    margin: 14px 0 11px 0;
+    font-size: 0;
+    
+}
+  
+    .checkout-step:nth-child(2).enabled .holder-icon {
+    
+    background: url(https://rawartsites.neocities.org/img/Yampi/truck.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+    background-color: var(--main-color);
+    border-radius: 0 0 4px 4px;
+    border: 2px solid var(--main-color);
+    padding: 7px;
+    margin: 14px 0 11px 0;
+    font-size: 0;
+    
+}
+  
+      .checkout-step:nth-child(3).enabled .holder-icon {
+    
+    background: url(https://rawartsites.neocities.org/img/Yampi/card.svg);
+    background-repeat: no-repeat;
+    background-position: center 8px;
+    background-size: 80%;
+    background-color: var(--main-color);
+    border-radius: 0 0 4px 4px;
+    border: 2px solid var(--main-color);
+    padding: 7px;
+    margin: 14px 0 11px 0;
+    font-size: 0;
+    
+}
+  
+  .checkout-step.disabled:nth-child(2) .holder-icon {
+    background: url(https://rawartsites.neocities.org/img/Yampi/truck.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+    background-color: #bdbdbd;
+    border-radius: 0 0 4px 4px;
+    border: 2px solid #bdbdbd;
+    padding: 7px;
+    margin: 14px 0 11px 0;
+    font-size: 0;
+}
+  
+    .checkout-step.disabled:nth-child(3) .holder-icon {
+    background: url(https://rawartsites.neocities.org/img/Yampi/card.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    background-color: #bdbdbd;
+    border-radius: 0 0 4px 4px;
+    border: 2px solid #bdbdbd;
+    padding: 7px;
+    margin: 14px 0 11px 0;
+    font-size: 0;
+}
+  
+    .checkout-step:nth-child(3) .holder-icon {
+    background: url(https://rawartsites.neocities.org/img/Yampi/card.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    background-color: #bdbdbd;
+    border-radius: 0 0 4px 4px;
+    border: 2px solid #bdbdbd;
+    padding: 7px;
+    margin: 14px 0 11px 0;
+    font-size: 0;
+}
+
+  .checkout-step.enabled .connect, .checkout-step.enabled .holder-icon {
+    background-color: #702DFA;
+}
+ 
+
+
+ 
+
+
+
+.container-testimonials .testimonials {
+    padding: 20px 21px;
+    background: #FFF;
+    border-radius: 40PX;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 32%);
+    width: auto;
+    margin: 0 10px 20px;
+    padding-left: 14px;
+    padding-right: 14px;
+    box-sizing: border-box;
+}
+
+.container-testimonials {
+    max-width: 680px!important;
+    box-shadow: none;
+}
+
+
+.btn-text.btn-purple {
+    color: #ffffff;
+  	background: #969696
+}
+
+.holder-countdown::after {
+    content: "";
+    display: block;
+    background: linear-gradient(to right, #702DFA 0, #702DFA 4%, #702DFA 5%, #00D864 50%, #00D864 84%, #00D864 119%);
+    height: 5px;
+    width: 100%;
+    position: relative;
+    top: 10px;
+}
+
+.holder-countdown {
+    padding: 9px 0 !important;
+}
+
+.logo {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.holder-cols-checkout .cart-resume .detail.total {
+    color: #00a801;
+    padding-top: 12px;
+    padding-bottom: 6px;
+}
+
+.holder-cols-checkout .box-checkout.box-resume .cart_total {
+    color: #00a801;
+}
+
+.form-horizontal .holder-input.valid:after {
+    position: absolute;
+    top: 14px;
+    right: 15px;
+    font-family: FontAwesome;
+    color: #00a801;
+    content: "\f00c";
